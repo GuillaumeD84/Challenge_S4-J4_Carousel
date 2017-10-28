@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "eqeqeq": ["error", "always"],
+    "curly": ["warn", "multi-line"],
+    "no-else-return": "error",
+    "no-console": "off"
+  }
+}
+
+
+# indent  ==>   indentations
+# quotes  ==>   guillemets (single pour apostrophe)
+# eqeqeq  ==>   === et !==
+# curly   ==>   accolades
+# semi    ==>   points-virgules
